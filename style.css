@@ -1,0 +1,103 @@
+.TopNav {
+    background-color: dodgerblue;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.TopNav a {
+    float: left;
+    color: white;
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: white;
+}
+
+.TopNav a:last-child {
+    border-right: none;
+}
+
+.TopNav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.TopNav a.active {
+    background-color: #ff4e2d;
+    color: white;
+}
+
+.About profile {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.About {
+    width: 1250px;
+    background-color: rgb(98, 203, 255);
+    border-radius: 15%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    font-family: monospace;
+    padding-bottom: 25px;
+}
+
+.About p {
+    font-size: 24px;
+}
+
+.About h1 {
+    font-size: 64px;
+    font-style: bold;
+}
+
+.family h1 {
+    color: white;
+    font-family: monospace;
+}
+
+.family h2 {
+    width: 450px;
+    background-color: rgb(98, 203, 255);
+    border-radius: 10%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    font-family: monospace;
+    font-style: bold;
+    padding: 25px 25px;
+}
+
+.family p {
+    color: white;
+    font-family: monospace;
+    font-size: 32px;
+}
+
+.gaming {
+    width: 500px;
+    height: 350px;
+}
+
+.digital {
+    width: 500px;
+    height: 350px;
+}
+
+.sleep {
+    width: 500px;
+    height: 350px;
+}
+
+.hobby p {
+    font-family: monospace;
+    font-size: 32px;
+    color: white;
+}
